@@ -61,11 +61,56 @@
 
 
 
-for (num = 20; num <=20; num++)
-        {     
+// for (num = 20; num <=20; num++)
+//         {     
         
-            if (num % 3 == 0 && num % 5 == 0)
-                console.log(num + " ");
-        }
+//             if (num % 3 == 0 && num % 5 == 0)
+//                 console.log(num + " ");
+//         }
     
 // Remember to commit your solution once it is working.
+
+
+// Write a script that accomplishes the following:
+// Declare an arbitrary number, n.
+
+// let n = 40, count = 0;
+// while (n % 2 === 0) {
+//     count++;
+//     num /= 2;
+//     console.log('count is ', count)
+// }
+
+
+// Create a loop that searches for the next prime number, starting at n and incrementing from there.
+
+// As soon as you find the prime number, log that number and exit the loop.
+// let n = 1;
+// while (n < 10) {
+//     console.log(n);
+//     n += 2;
+// }
+// Continuing with the example above, if n is equal to 4, your loop should log 5. Similarly, if n is 5, it should log 7, and if n is 9, it should log 11. Test your loop with higher numbers and reference an online prime number table to determine the accuracy of your code.
+// let num = 20, count = 0;
+// while (num % 2 === 0) {
+//     count++;
+//     num /= 4;
+//     console.log(num);
+// }
+
+// ? I dont know how to get the 7 and so fourth. What am I doing wrong?
+// let num = 20, count = 0;
+// while (num % 2 === 0) {
+//     count++;
+//     num /= 5;
+//     console.log(num)
+// }
+
+let num = 20, count = 0;
+while (num % 2 === 0) {
+    count++;
+    num /= 9;
+    console.log(num)
+}
+
+// Be careful! If you set n to a number too large, your loop could take a long time to process.
